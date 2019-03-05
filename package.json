@@ -1,0 +1,24 @@
+{
+    "name": "chenk-testForJenkins",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/hellochenk/chenk-testForJenkins.git",
+    "author": "hellochenk <657301050@qq.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "easy --dev"
+    },
+    "dependencies": {
+        "@babel/core": "^7.3.4",
+        "@babel/plugin-proposal-class-properties": "^7.3.4",
+        "@babel/preset-env": "^7.3.4",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.4",
+        "babel-plugin-import": "^1.11.0",
+        "css-loader": "^2.1.0",
+        "lodash": "^4.17.11",
+        "react": "^16.8.3",
+        "react-dom": "^16.8.3",
+        "style-loader": "^0.23.1"
+    }
+}

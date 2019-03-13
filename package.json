@@ -6,7 +6,8 @@
     "author": "hellochenk <657301050@qq.com>",
     "license": "MIT",
     "scripts": {
-        "start": "easy --dev"
+        "start": "easy --dev"，
+        "build": "easy --dist"，
     },
     "dependencies": {
         "@babel/core": "^7.3.4",

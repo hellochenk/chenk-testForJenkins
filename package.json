@@ -12,14 +12,18 @@
     "dependencies": {
         "@babel/core": "^7.3.4",
         "@babel/plugin-proposal-class-properties": "^7.3.4",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
         "@babel/preset-env": "^7.3.4",
         "@babel/preset-react": "^7.0.0",
+        "@loadable/component": "^5.7.0",
         "babel-loader": "^8.0.4",
         "babel-plugin-import": "^1.11.0",
         "css-loader": "^2.1.0",
         "lodash": "^4.17.11",
         "react": "^16.8.3",
         "react-dom": "^16.8.3",
+        "react-loadable": "^5.5.0",
+        "react-router-dom": "^4.3.1",
         "style-loader": "^0.23.1",
         "uglifyjs-webpack-plugin": "^2.1.2"
     }

@@ -1,7 +1,4 @@
 module.exports = {
-    // apps: ["myTest"],
-    apps: ['details', 'games'],
+    apps: ['games'],
     port: "8001"
-    // lang: "tsx"
-    // lang: "jsx"
 };

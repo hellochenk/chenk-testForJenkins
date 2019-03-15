@@ -5,30 +5,17 @@ export const getGame = (params) => {
         url: '/api/getGame',
         method: 'get',
         params
+    }).then(res => {
+        if(res) {
+            return res.data
+        }
     })
 }
 
-// export const getList = (params) => {
-//     return axios({
-//         url: '/api/getgame',
-//         method: 'get',
-//         params
-//     })
-// }
-
-// export const getList = (params) => {
-//     return axios({
-//         url: '/api/getgame',
-//         method: 'get',
-//         params
-//     })
-// }
-
-// export const getList = (params) => {
-//     return axios({
-//         url: '/api/getgame',
-//         method: 'get',
-//         params
-//     })
-// }
-
+export const testGame = (params) => {
+    return axios({
+        url: '/api/testGame',
+        method: 'post',
+        params
+    })
+}

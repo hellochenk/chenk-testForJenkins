@@ -12,14 +12,6 @@ const Loading = (status, err) => (
 export const createRouter = (store) => {
     const routerArr = [
         {
-            path: paths.list,
-            component: Loadable({
-                loading: Loading,
-                loader: (a) => {
-                    return import('./list/index')
-                } 
-            })
-        }, {
             path: paths.detail,
             component: Loadable({
                 loading: Loading,
@@ -40,6 +32,7 @@ export const createRouter = (store) => {
             component: Loadable({
                 loading: Loading,
                 loader: (a) => {
+                    console.log('entry home')
                     return import('./home/index')
                 } 
             })
